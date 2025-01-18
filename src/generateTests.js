@@ -36,6 +36,6 @@ describe("API Tests", () => {
 
 // Example usage
 (async () => {
-  const filePath = "./api_spec.yaml"; // Replace with your file path
+  const filePath = "../api/api_spec.yaml"; // Replace with your file path
   await generateTests(filePath);
 })();
